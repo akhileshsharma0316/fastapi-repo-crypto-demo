@@ -1,0 +1,22 @@
+[project]
+name = "fastapi-repo-crypto-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bcrypt<4.1.0",
+    "cryptography>=50.0.0",
+    "fastapi>=0.141.1",
+    "passlib>=1.7.4",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.15.0",
+    "sqlalchemy>=2.0.52",
+    "uvicorn[standard]>=0.52.4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.4",
+]
